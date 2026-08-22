@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "pageId": "first-home-guide",
+  "title": "Your first home",
+  "components": [
+    {
+      "id": "guide-title",
+      "type": "contentTitle",
+      "variant": "standard",
+      "content": { "title": "A clear path to buying" }
+    },
+    {
+      "id": "guide-steps",
+      "type": "numberedSteps",
+      "content": {
+        "items": ["Set a budget", "Explore homes", "Schedule a visit"]
+      }
+    }
+  ],
+  "finalAction": {
+    "type": "applyFilter",
+    "presentationStyle": "push",
+    "destination": "first-home"
+  },
+  "relatedPropertyIds": ["property-101", "property-102"]
+}

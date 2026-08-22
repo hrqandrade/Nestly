@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "experienceId": "urban-rentals",
+  "metadata": {
+    "title": "Find your next home",
+    "subtitle": "Curated rentals near you"
+  },
+  "sections": [
+    {
+      "id": "hero-urban",
+      "type": "heroBanner",
+      "variant": "imageOverlay",
+      "content": {
+        "title": "Move-in ready homes",
+        "imageName": "urban-hero"
+      },
+      "action": {
+        "type": "openSearch",
+        "presentationStyle": "push",
+        "payload": { "availability": "next30Days" }
+      },
+      "accessibilityLabel": "Explore move-in ready homes",
+      "spacing": "large"
+    },
+    {
+      "id": "urban-divider",
+      "type": "divider"
+    }
+  ],
+  "fallback": {
+    "title": "Homes are unavailable",
+    "message": "Please try again."
+  },
+  "analyticsId": "home_urban_v1"
+}

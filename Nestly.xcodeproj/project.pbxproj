@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0513DD5FB4F759F6079E5164 /* unsupported-version-home.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FD92143269728CAA3FD46B0 /* unsupported-version-home.json */; };
 		1512D123B4F3CF890F0287F4 /* NestlyData in Frameworks */ = {isa = PBXBuildFile; productRef = 22F04D0E2DC0B8CAF6D9CF0D /* NestlyData */; };
 		27B93AF4564E0EF0BE19CC12 /* FoundationPlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F677BEF650A35FFBE258079 /* FoundationPlaceholderViewController.swift */; };
 		405004E5C8205F2DF7579ED5 /* foundation-home.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E70A985A5347A3431C221B8 /* foundation-home.json */; };
 		61F2D5B465385749CE2331EA /* NestlyDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 60D06A1068A3C5BE798AEE2D /* NestlyDomain */; };
+		747B218D33C6F5C051EC1E0D /* valid-home.json in Resources */ = {isa = PBXBuildFile; fileRef = B68406C98CF8F3596378A553 /* valid-home.json */; };
+		916110696950F07580EF635A /* ContractDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4BEC3183774D60D2BDB9A /* ContractDecoderTests.swift */; };
 		926554F2DDF1D5B1C31F2A06 /* FoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D52A02837E3160DD99B39C /* FoundationTests.swift */; };
 		9886580763A58ED54D41C95A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2182FAF1DBD35A169564FE5 /* SceneDelegate.swift */; };
 		A05030C65721F83B2C259C8A /* NestlyDomain in Frameworks */ = {isa = PBXBuildFile; productRef = B431D15FE029E2BEF0C646E1 /* NestlyDomain */; };
 		A76C69351E302BFED778EFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E8A28DFD7B2FFEDEA99981 /* AppDelegate.swift */; };
+		A97F3AE1EAE5C78D4EECEB91 /* valid-content-page.json in Resources */ = {isa = PBXBuildFile; fileRef = 413902483B881C8CA2EBD08E /* valid-content-page.json */; };
 		AFB66F71AA211F0C8F1F7336 /* NestlyDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 7B3B3A09EE6028A7B9EADDC1 /* NestlyDesignSystem */; };
 		B18435116A9721E7C9FF3D71 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F0A5B0AFB77E8E3B6E4FA /* FavoritesViewController.swift */; };
 		CEA18F723E068FD679917903 /* NestlyData in Frameworks */ = {isa = PBXBuildFile; productRef = 1582AE5D4AE0BC0C19F0C3E0 /* NestlyData */; };
 		D9557A42A71216EFFDFF80B6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423017298D0F60C521CF8472 /* HomeViewController.swift */; };
 		DBEB1667CEDBEF27924B4B90 /* NestlyDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = BC184833099D426E7AB20EB9 /* NestlyDesignSystem */; };
+		DC46B8FEF2963E193D0F5D05 /* partial-home.json in Resources */ = {isa = PBXBuildFile; fileRef = 63D71E895895AE709E452CE4 /* partial-home.json */; };
 		E277495C0527F9CF2C806EB7 /* NestlySDU in Frameworks */ = {isa = PBXBuildFile; productRef = A62ABAE919768A69F322A4AA /* NestlySDU */; };
 		E45044DB3B936C3F4EEAF543 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504117A5701A8BF3AC28209 /* SearchViewController.swift */; };
 		ED799660A897850755B745EF /* NestlySDU in Frameworks */ = {isa = PBXBuildFile; productRef = F79E9D79E542C78B3EBC1AD5 /* NestlySDU */; };
@@ -40,15 +45,20 @@
 		0B581A55CC4EC32BD9D63365 /* NestlyDesignSystem */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NestlyDesignSystem; path = Packages/NestlyDesignSystem; sourceTree = SOURCE_ROOT; };
 		0D10808EF8E2D57AB0FCD7FF /* NestlyDomain */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NestlyDomain; path = Packages/NestlyDomain; sourceTree = SOURCE_ROOT; };
 		1E70A985A5347A3431C221B8 /* foundation-home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "foundation-home.json"; sourceTree = "<group>"; };
+		413902483B881C8CA2EBD08E /* valid-content-page.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "valid-content-page.json"; sourceTree = "<group>"; };
 		423017298D0F60C521CF8472 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		55F7805CBB2073AA980F1008 /* NestlySDU */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NestlySDU; path = Packages/NestlySDU; sourceTree = SOURCE_ROOT; };
+		63D71E895895AE709E452CE4 /* partial-home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "partial-home.json"; sourceTree = "<group>"; };
 		6AD27AF5AE9B1539464D432D /* AppCompositionRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCompositionRoot.swift; sourceTree = "<group>"; };
 		86E8A28DFD7B2FFEDEA99981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FD92143269728CAA3FD46B0 /* unsupported-version-home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "unsupported-version-home.json"; sourceTree = "<group>"; };
 		970D0C6650DE8742E5E6E60F /* NestlyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NestlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F677BEF650A35FFBE258079 /* FoundationPlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationPlaceholderViewController.swift; sourceTree = "<group>"; };
 		A00F0A5B0AFB77E8E3B6E4FA /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		A2182FAF1DBD35A169564FE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4D4BEC3183774D60D2BDB9A /* ContractDecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractDecoderTests.swift; sourceTree = "<group>"; };
 		B0B4707822053D93DF27FD37 /* Nestly.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Nestly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68406C98CF8F3596378A553 /* valid-home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "valid-home.json"; sourceTree = "<group>"; };
 		C0D52A02837E3160DD99B39C /* FoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationTests.swift; sourceTree = "<group>"; };
 		EBA446CCCF4564F04BAD8640 /* NestlyData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NestlyData; path = Packages/NestlyData; sourceTree = SOURCE_ROOT; };
 		F504117A5701A8BF3AC28209 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +184,10 @@
 			isa = PBXGroup;
 			children = (
 				1E70A985A5347A3431C221B8 /* foundation-home.json */,
+				63D71E895895AE709E452CE4 /* partial-home.json */,
+				8FD92143269728CAA3FD46B0 /* unsupported-version-home.json */,
+				413902483B881C8CA2EBD08E /* valid-content-page.json */,
+				B68406C98CF8F3596378A553 /* valid-home.json */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -181,6 +195,7 @@
 		E1BDC2EB1AD0A01060EB1022 /* NestlyTests */ = {
 			isa = PBXGroup;
 			children = (
+				A4D4BEC3183774D60D2BDB9A /* ContractDecoderTests.swift */,
 				C0D52A02837E3160DD99B39C /* FoundationTests.swift */,
 			);
 			path = NestlyTests;
@@ -303,6 +318,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				405004E5C8205F2DF7579ED5 /* foundation-home.json in Resources */,
+				DC46B8FEF2963E193D0F5D05 /* partial-home.json in Resources */,
+				0513DD5FB4F759F6079E5164 /* unsupported-version-home.json in Resources */,
+				A97F3AE1EAE5C78D4EECEB91 /* valid-content-page.json in Resources */,
+				747B218D33C6F5C051EC1E0D /* valid-home.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				916110696950F07580EF635A /* ContractDecoderTests.swift in Sources */,
 				926554F2DDF1D5B1C31F2A06 /* FoundationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,7 +448,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,7 +551,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

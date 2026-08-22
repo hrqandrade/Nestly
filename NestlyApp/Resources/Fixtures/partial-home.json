@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "experienceId": "partial-demo",
+  "sections": [
+    {
+      "id": "valid-title",
+      "type": "sectionHeader",
+      "variant": "standard",
+      "content": { "title": "Still available" }
+    },
+    {
+      "id": "unsupported",
+      "type": "remoteCustomView",
+      "content": { "title": "Never rendered" }
+    },
+    {
+      "id": "invalid-action",
+      "type": "callToAction",
+      "content": { "title": "Unavailable action" },
+      "action": {
+        "type": "openProperty",
+        "presentationStyle": "push"
+      }
+    },
+    {
+      "id": "missing-content",
+      "type": "informationalCard"
+    },
+    {
+      "id": "valid-title",
+      "type": "divider"
+    }
+  ]
+}
