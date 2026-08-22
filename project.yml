@@ -1,0 +1,62 @@
+name: Nestly
+options:
+  bundleIdPrefix: com.hrqandrade
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 0.1.0
+    DEVELOPMENT_TEAM: ""
+packages:
+  NestlyDomain:
+    path: Packages/NestlyDomain
+  NestlyData:
+    path: Packages/NestlyData
+  NestlySDU:
+    path: Packages/NestlySDU
+  NestlyDesignSystem:
+    path: Packages/NestlyDesignSystem
+targets:
+  Nestly:
+    type: application
+    platform: iOS
+    sources:
+      - NestlyApp
+    resources:
+      - path: NestlyApp/Resources
+    dependencies:
+      - package: NestlyDomain
+      - package: NestlyData
+      - package: NestlySDU
+      - package: NestlyDesignSystem
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hrqandrade.Nestly
+        PRODUCT_NAME: Nestly
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Nestly
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+    scheme:
+      testTargets:
+        - NestlyTests
+  NestlyTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - NestlyTests
+    dependencies:
+      - target: Nestly
+      - package: NestlyDomain
+      - package: NestlyData
+      - package: NestlySDU
+      - package: NestlyDesignSystem
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hrqandrade.NestlyTests
+        GENERATE_INFOPLIST_FILE: YES
+
