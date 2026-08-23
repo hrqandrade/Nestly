@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "favorites.foundation.message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Saved properties will appear here." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Os imóveis salvos aparecerão aqui." } }
+      }
+    },
+    "favorites.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Favorites" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Favoritos" } }
+      }
+    },
+    "home.foundation.message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your next place starts here." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Seu próximo lar começa aqui." } }
+      }
+    },
+    "home.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Home" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Início" } }
+      }
+    },
+    "search.foundation.message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Search will arrive in the native screens phase." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "A busca chegará na etapa de telas nativas." } }
+      }
+    },
+    "search.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Search" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Buscar" } }
+      }
+    },
+    "tab.favorites" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Favorites" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Favoritos" } }
+      }
+    },
+    "tab.home" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Home" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Início" } }
+      }
+    },
+    "tab.search" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Search" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Buscar" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -5,10 +5,11 @@ class FoundationPlaceholderViewController: UIViewController {
     private let message: String
     private let symbolName: String
 
-    init(message: String, symbolName: String) {
+    init(title: String, message: String, symbolName: String) {
         self.message = message
         self.symbolName = symbolName
         super.init(nibName: nil, bundle: nil)
+        self.title = title
     }
 
     @available(*, unavailable)
@@ -20,7 +21,10 @@ class FoundationPlaceholderViewController: UIViewController {
 
         let imageView = UIImageView(image: UIImage(systemName: symbolName))
         imageView.tintColor = NestlyColor.brandPrimary
-        imageView.preferredSymbolConfiguration = UIImage.SymbolConfiguration(pointSize: 34, weight: .medium)
+        imageView.preferredSymbolConfiguration = UIImage.SymbolConfiguration(
+            pointSize: NestlyIconSize.prominent,
+            weight: .medium
+        )
 
         let label = UILabel()
         label.text = message
@@ -40,9 +44,8 @@ class FoundationPlaceholderViewController: UIViewController {
         NSLayoutConstraint.activate([
             stack.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
             stack.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor),
-            stack.leadingAnchor.constraint(greaterThanOrEqualTo: view.leadingAnchor, constant: NestlySpacing.extraLarge),
-            stack.trailingAnchor.constraint(lessThanOrEqualTo: view.trailingAnchor, constant: -NestlySpacing.extraLarge)
+            stack.leadingAnchor.constraint(greaterThanOrEqualTo: view.leadingAnchor, constant: NestlyLayout.editorialMargin),
+            stack.trailingAnchor.constraint(lessThanOrEqualTo: view.trailingAnchor, constant: -NestlyLayout.editorialMargin)
         ])
     }
 }
-
