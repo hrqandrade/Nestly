@@ -2,10 +2,13 @@ import UIKit
 
 final class HomeViewController: FoundationPlaceholderViewController {
     init() {
-        super.init(message: "Your next place starts here.", symbolName: "house.lodge")
+        super.init(
+            title: Localizable.Home.title,
+            message: Localizable.Home.foundationMessage,
+            symbolName: "house.lodge"
+        )
     }
 
     @available(*, unavailable)
     required init?(coder: NSCoder) { nil }
 }
-

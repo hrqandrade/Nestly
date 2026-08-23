@@ -5,9 +5,9 @@ enum AppCompositionRoot {
     static func makeRootViewController() -> UIViewController {
         let tabBarController = UITabBarController()
         tabBarController.viewControllers = [
-            navigationController(for: HomeViewController(), title: "Home", symbol: "house"),
-            navigationController(for: SearchViewController(), title: "Search", symbol: "magnifyingglass"),
-            navigationController(for: FavoritesViewController(), title: "Favorites", symbol: "heart")
+            navigationController(for: HomeViewController(), title: Localizable.Tab.home, symbol: "house"),
+            navigationController(for: SearchViewController(), title: Localizable.Tab.search, symbol: "magnifyingglass"),
+            navigationController(for: FavoritesViewController(), title: Localizable.Tab.favorites, symbol: "heart")
         ]
         tabBarController.tabBar.tintColor = NestlyColor.brandPrimary
         tabBarController.view.backgroundColor = NestlyColor.background
@@ -30,4 +30,3 @@ enum AppCompositionRoot {
         return navigationController
     }
 }
-

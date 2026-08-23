@@ -12,11 +12,13 @@
 		27B93AF4564E0EF0BE19CC12 /* FoundationPlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F677BEF650A35FFBE258079 /* FoundationPlaceholderViewController.swift */; };
 		405004E5C8205F2DF7579ED5 /* foundation-home.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E70A985A5347A3431C221B8 /* foundation-home.json */; };
 		61F2D5B465385749CE2331EA /* NestlyDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 60D06A1068A3C5BE798AEE2D /* NestlyDomain */; };
+		65DE4FC4507C5C1991DA348E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 07B99CBDB3DA25FD24AC1629 /* Localizable.xcstrings */; };
 		747B218D33C6F5C051EC1E0D /* valid-home.json in Resources */ = {isa = PBXBuildFile; fileRef = B68406C98CF8F3596378A553 /* valid-home.json */; };
 		916110696950F07580EF635A /* ContractDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4BEC3183774D60D2BDB9A /* ContractDecoderTests.swift */; };
 		926554F2DDF1D5B1C31F2A06 /* FoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D52A02837E3160DD99B39C /* FoundationTests.swift */; };
 		9886580763A58ED54D41C95A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2182FAF1DBD35A169564FE5 /* SceneDelegate.swift */; };
 		A05030C65721F83B2C259C8A /* NestlyDomain in Frameworks */ = {isa = PBXBuildFile; productRef = B431D15FE029E2BEF0C646E1 /* NestlyDomain */; };
+		A5431881F7940562C0E0B0C7 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544CE1EE6A888C0DD5EC7FD /* Localizable.swift */; };
 		A76C69351E302BFED778EFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E8A28DFD7B2FFEDEA99981 /* AppDelegate.swift */; };
 		A97F3AE1EAE5C78D4EECEB91 /* valid-content-page.json in Resources */ = {isa = PBXBuildFile; fileRef = 413902483B881C8CA2EBD08E /* valid-content-page.json */; };
 		AFB66F71AA211F0C8F1F7336 /* NestlyDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 7B3B3A09EE6028A7B9EADDC1 /* NestlyDesignSystem */; };
@@ -42,11 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B99CBDB3DA25FD24AC1629 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		0B581A55CC4EC32BD9D63365 /* NestlyDesignSystem */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NestlyDesignSystem; path = Packages/NestlyDesignSystem; sourceTree = SOURCE_ROOT; };
 		0D10808EF8E2D57AB0FCD7FF /* NestlyDomain */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NestlyDomain; path = Packages/NestlyDomain; sourceTree = SOURCE_ROOT; };
 		1E70A985A5347A3431C221B8 /* foundation-home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "foundation-home.json"; sourceTree = "<group>"; };
 		413902483B881C8CA2EBD08E /* valid-content-page.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "valid-content-page.json"; sourceTree = "<group>"; };
 		423017298D0F60C521CF8472 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5544CE1EE6A888C0DD5EC7FD /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		55F7805CBB2073AA980F1008 /* NestlySDU */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NestlySDU; path = Packages/NestlySDU; sourceTree = SOURCE_ROOT; };
 		63D71E895895AE709E452CE4 /* partial-home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "partial-home.json"; sourceTree = "<group>"; };
 		6AD27AF5AE9B1539464D432D /* AppCompositionRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCompositionRoot.swift; sourceTree = "<group>"; };
@@ -90,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0124A8633C1B7B34938517B8 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				5544CE1EE6A888C0DD5EC7FD /* Localizable.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		2D25B00BA119B0D58CFC8DB4 /* AppComposition */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +144,7 @@
 				C7C972717901D58591754FCA /* App */,
 				2D25B00BA119B0D58CFC8DB4 /* AppComposition */,
 				F0BC867E047306EBC19EE14F /* Features */,
+				0124A8633C1B7B34938517B8 /* Localization */,
 				D0ED445ABC4B662B1B5F899A /* Resources */,
 			);
 			path = NestlyApp;
@@ -175,6 +188,7 @@
 		D0ED445ABC4B662B1B5F899A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				07B99CBDB3DA25FD24AC1629 /* Localizable.xcstrings */,
 				D936DF0B32200A0B2C4B823E /* Fixtures */,
 			);
 			path = Resources;
@@ -292,6 +306,7 @@
 			knownRegions = (
 				Base,
 				en,
+				"pt-BR",
 			);
 			mainGroup = A0B483C68CEF4C8DD3E0E621;
 			minimizedProjectReferenceProxies = 1;
@@ -317,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DE4FC4507C5C1991DA348E /* Localizable.xcstrings in Resources */,
 				405004E5C8205F2DF7579ED5 /* foundation-home.json in Resources */,
 				DC46B8FEF2963E193D0F5D05 /* partial-home.json in Resources */,
 				0513DD5FB4F759F6079E5164 /* unsupported-version-home.json in Resources */,
@@ -346,6 +362,7 @@
 				B18435116A9721E7C9FF3D71 /* FavoritesViewController.swift in Sources */,
 				27B93AF4564E0EF0BE19CC12 /* FoundationPlaceholderViewController.swift in Sources */,
 				D9557A42A71216EFFDFF80B6 /* HomeViewController.swift in Sources */,
+				A5431881F7940562C0E0B0C7 /* Localizable.swift in Sources */,
 				9886580763A58ED54D41C95A /* SceneDelegate.swift in Sources */,
 				E45044DB3B936C3F4EEAF543 /* SearchViewController.swift in Sources */,
 			);

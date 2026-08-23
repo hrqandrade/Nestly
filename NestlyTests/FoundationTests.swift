@@ -11,7 +11,13 @@ struct FoundationTests {
         let root = AppCompositionRoot.makeRootViewController() as? UITabBarController
 
         #expect(root?.viewControllers?.count == 3)
-        #expect(root?.viewControllers?.compactMap(\.tabBarItem.title) == ["Home", "Search", "Favorites"])
+        #expect(
+            root?.viewControllers?.compactMap(\.tabBarItem.title) == [
+                Localizable.Tab.home,
+                Localizable.Tab.search,
+                Localizable.Tab.favorites
+            ]
+        )
     }
 
     @Test func currentContractVersionStartsAtOne() {
@@ -26,5 +32,16 @@ struct FoundationTests {
 
     @Test func designTokensExposeTheApprovedBrandColor() {
         #expect(NestlyColor.brandPrimary != NestlyColor.background)
+    }
+
+    @Test func layoutTokensPreserveMinimumInteractionSize() {
+        #expect(NestlyLayout.minimumTouchTarget == 44)
+        #expect(NestlyRadius.propertyCard == NestlySpacing.large)
+    }
+
+    @Test func productStringsResolveFromTheCatalog() {
+        #expect(!Localizable.Home.title.isEmpty)
+        #expect(!Localizable.Search.foundationMessage.isEmpty)
+        #expect(!Localizable.Favorites.title.isEmpty)
     }
 }
